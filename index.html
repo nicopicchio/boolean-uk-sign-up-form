@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div id="form-container">
+
+            <form action="" id="signup-form">
+                
+                <h1>Sign Up</h1>
+                <br>
+                <div id="actual-form">
+                    <label for="username">Username</label>
+                    <input required minlengt="6" maxlength="16" type="text" placeholder="Choose username">
+                    <br>
+                    
+                    <label for="password">Password</label>
+                    <input required type="password" placeholder="Choose password">
+                    <br>
+                    <label>(Minimum 8 charachters)</label>
+                    <br>
+                    
+                    <label for="password-repeat">Repeat password</label>
+                    <input required type="password" placeholder="Repeat password">
+                    <br>
+                    
+                    <label for="city">City</label>
+                    <select name="city">
+                        <option value="lon">London</option>
+                        <option value="rom">Rome</option>
+                        <option value="par">Paris</option>
+                        <option value="ams">Amsterdam</option>
+                        <option value="ber">Berlin</option>
+                        <option value="nyc">New York</option>
+                        <option value="sf">San Francisco</option>
+                        <option value="lis">Lisbon</option>
+                        <option value="tok">Tokyo</option>
+                        <option value="mad">Madrid</option>
+                    </select>
+                    <br>
+                    
+                    <input required type="checkbox">
+                    <label>I have read and accept the T&Cs.</label>
+                    <br>
+                    
+                    <input id="submit" type="submit" value="Sign-Up">
+
+                
+                
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
